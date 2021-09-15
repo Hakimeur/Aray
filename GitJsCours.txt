@@ -77,4 +77,4 @@ Les tableaux et objets :
 
 Les différents types de tableaux:
 
--
+-*
