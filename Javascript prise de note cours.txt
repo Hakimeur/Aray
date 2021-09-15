@@ -1,0 +1,21 @@
+Javascript :
+
+-Defer
+	=> Pour l'ordre d'activation des codes selon leurs types
+-Async
+
+-// => Commentaire pour tout la ligne
+-/* + */ => Commentaire pour tout un bloc
+
+Les Variables :
+
+-LET => à utiliser en priorité (espace après le let puis $ ou _
+-VAR =>
+-CONST => Une fois qu'elle à sa valeur, elle ne peut plus changer
+-String = chaîne de caractères
+
+-Boolean => True ou False
+
+-Undefined => 
+
+-Tableau => Mettre des variables compter à partir de 0

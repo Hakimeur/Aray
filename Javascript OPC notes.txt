@@ -1,0 +1,80 @@
+Javascript OPC :
+
+Les Variables :
+
+-Les variables sont les contenants de données (par exemple des étagères), les données qu'on place dans ces variables = une valeur (par exemple un carton),
+ 
+-Pour étiqueter les carton ont met un nom (en programmation = camel case => mettre une majuscule à chaque initiatle des mots par exemple theWayOfCoding)
+ ; Mettre des noms détaillés et les points sur les i
+
+-Pour utiliser une variable dans le code, il faut la créer. C'est ce qu'on appelle déclarer une variable => let + nom de la variable (par exemple numberOfCats, numberOfDogs)
+
+Pour modifier la valeur d'une variable :
+
+-Addition et Soustraction :
+
+-Pour ajouter deux variables => +
+-Pour soustraire => -
+-Pour ajouter ou soustraire de la variable => += et -=
+-Pour ajouter ou soustraire 1 incrément/décrément (valeur 1 obligatoire)
+
+-Multiplication et Division :
+
+-Pour multiplier ou diviser => * et /
+-Pour multiplier ou diviser de la variable => *= et /=
+
+Les Variables sont mutables :
+
+-Elles peuvent changer au cours du temps, on leur assigne un compteur => mettre une variable letCompteur avec une valeur de base ex:0
+
+Les Constantes ;
+
+-Ce sont des variables non mutables avec une valeur de départ qui ne changera pas par la suite => const 
+
+Les Types :
+
+-Les types sont applicables sur les Variables et les Constantes
+
+Trois types primitifs existants :
+
+-number (nombre) => Positifs ou Négatifs, Nombres entiers ou décimaux (Integers ou floating-point)
+    Arithmétique en virgule flottante => utiliser des calculs entiers (par exemple calculer en centimes au lieu de euros)
+
+-string (chaîne de caractères) => Pour enregistrer du texte dans des variables JavaScript => ' ou " / peuvent être concaténées (ajoutées à la fin l'une de l'autre) avec => +
+    string interpolation => Écriture qui simplifie la concaténation des variables et des chaînes de caractère => ' pour créer une string interpolation et ${maVariable} pour y injecter une variable
+-boolean (valeur logique) => True ou False (Elles s'utilisent dans toutes sortes de cas : pour indiquer si un utilisateur est connecté ou non, si une case est cochée ou non, ou si un ensemble de conditions particulières est réuni).
+
+Les Objets :
+
+Les Classes :
+
+-Une classe est un modèle pour un objet dans le code. Elle permet de construire plusieurs objets du même type (appelés instances de la même classe) plus facilement, rapidement et en toute fiabilité.
+=>class nom { }
+-Pour que la classe ait plusieurs instances on créer un constructor => constructor suivis du mot clé this et la notation dot
+ Ensuite quand la classe est terminée il sera possible de créer des instances avec le mot clé new
+
+-Types Nommés et Types complexes 
+-Les objets vont en paires clés-valeurs séparées par des virgules, entre des accolades   Ils sont placés dans des variables
+
+La notation pointée (dot notation) :
+
+=> Nom de la variable qui contient l'objet avec un point puis le nom de la clé où récupérer la valeur
+
+La notation bracket (bracket notation) :
+
+=>mettre entre bracket une variable qui contient en string le nom de la propriété que l’on souhaite atteindre.
+
+Les tableaux et objets :
+
+-Le tableau (array)
+
+-Pour créer un tableau vide et l'enregistrer dans une variable => let guests = [];
+-Pour créer un tableau rempli en plaçant les éléments voulus à l'intérieur des crochets => let guests = ["Blabla 1", "Blabla 2", "Blabla 3"];
+ Il sera ensuite possible d'accéder aux éléments de ce tableau par leur indice
+
+! Les valeurs s'appliquent au types primitifs (nombres,valeurs logiques et les chaînes) !
+! Les tableaux sont par contre eux passés par référence !
+
+Les différents types de tableaux:
+
+-
