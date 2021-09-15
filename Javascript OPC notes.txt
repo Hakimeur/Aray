@@ -74,7 +74,14 @@ Les tableaux et objets :
 
 ! Les valeurs s'appliquent au types primitifs (nombres,valeurs logiques et les chaînes) !
 ! Les tableaux sont par contre eux passés par référence !
+! Les objets passent avant la modification car les tableaux utilisent des références !
 
 Les différents types de tableaux:
 
 -
+
+Pour afficher combien d'éléments un tableau contient => .length (à utiliser avec la notation dot)
+
+Pour ajouter un élément à la fin du tableau => .push 
+Pour ajouter un élément au début du tableau => .unshift
+Pour supprimer le dernier élément d'un tableau => .pop
